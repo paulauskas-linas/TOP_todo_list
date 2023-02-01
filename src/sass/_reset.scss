@@ -1,0 +1,36 @@
+*, ::before, ::after { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;
+} 
+
+html {
+  scroll-behavior: smooth; 
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body { 
+  font-family: "Andada Pro", serif; 
+  font-size: 1.6rem; 
+  overflow-x: hidden; 
+  position: relative;
+} 
+
+a {
+  text-decoration: none; 
+  color: inherit;
+
+  &:visited {
+    color: unset;
+  }
+}
+
+input {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+}
